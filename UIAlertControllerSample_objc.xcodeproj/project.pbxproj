@@ -14,6 +14,8 @@
 		5E8C6CC223C1D2FE0034597E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8C6CC123C1D2FE0034597E /* Assets.xcassets */; };
 		5E8C6CC523C1D2FE0034597E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8C6CC323C1D2FE0034597E /* LaunchScreen.storyboard */; };
 		5E8C6CC823C1D2FE0034597E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C6CC723C1D2FE0034597E /* main.m */; };
+		5E8C6CCF23C1D4E50034597E /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8C6CCE23C1D4E50034597E /* AlertViewController.m */; };
+		5E8C6CD223C1D6620034597E /* Alert.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8C6CD123C1D6620034597E /* Alert.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		5E8C6CC423C1D2FE0034597E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E8C6CC623C1D2FE0034597E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E8C6CC723C1D2FE0034597E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E8C6CCE23C1D4E50034597E /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		5E8C6CD023C1D4F60034597E /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		5E8C6CD123C1D6620034597E /* Alert.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alert.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +72,10 @@
 				5E8C6CB923C1D2FC0034597E /* SceneDelegate.m */,
 				5E8C6CBB23C1D2FC0034597E /* ViewController.h */,
 				5E8C6CBC23C1D2FC0034597E /* ViewController.m */,
+				5E8C6CD023C1D4F60034597E /* AlertViewController.h */,
+				5E8C6CCE23C1D4E50034597E /* AlertViewController.m */,
 				5E8C6CBE23C1D2FC0034597E /* Main.storyboard */,
+				5E8C6CD123C1D6620034597E /* Alert.storyboard */,
 				5E8C6CC123C1D2FE0034597E /* Assets.xcassets */,
 				5E8C6CC323C1D2FE0034597E /* LaunchScreen.storyboard */,
 				5E8C6CC623C1D2FE0034597E /* Info.plist */,
@@ -136,6 +144,7 @@
 				5E8C6CC523C1D2FE0034597E /* LaunchScreen.storyboard in Resources */,
 				5E8C6CC223C1D2FE0034597E /* Assets.xcassets in Resources */,
 				5E8C6CC023C1D2FC0034597E /* Main.storyboard in Resources */,
+				5E8C6CD223C1D6620034597E /* Alert.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E8C6CBD23C1D2FC0034597E /* ViewController.m in Sources */,
+				5E8C6CCF23C1D4E50034597E /* AlertViewController.m in Sources */,
 				5E8C6CB723C1D2FC0034597E /* AppDelegate.m in Sources */,
 				5E8C6CC823C1D2FE0034597E /* main.m in Sources */,
 				5E8C6CBA23C1D2FC0034597E /* SceneDelegate.m in Sources */,
