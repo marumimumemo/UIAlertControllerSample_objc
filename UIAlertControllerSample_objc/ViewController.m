@@ -18,5 +18,11 @@
     [super viewDidLoad];
 }
 
+- (IBAction)pushButton :(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Alert" bundle:nil];
+    UINavigationController *vc = [storyboard instantiateViewControllerWithIdentifier:@"Alert"];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
 
 @end

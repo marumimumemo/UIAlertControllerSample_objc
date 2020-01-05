@@ -10,7 +10,7 @@
         <!--Alert View Controller-->
         <scene sceneID="dI3-s9-ha1">
             <objects>
-                <viewController id="k3d-oW-xgn" customClass="AlertViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Alert" useStoryboardIdentifierAsRestorationIdentifier="YES" id="k3d-oW-xgn" customClass="AlertViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DR7-sc-hQI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
