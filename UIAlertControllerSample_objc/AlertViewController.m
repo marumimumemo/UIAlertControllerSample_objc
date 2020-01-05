@@ -38,7 +38,8 @@
                                           
     [alertController addAction:cancelAction];
     [alertController addAction:defaultAction];
-                                          
+
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 

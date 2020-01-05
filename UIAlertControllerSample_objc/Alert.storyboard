@@ -21,7 +21,7 @@
                     <navigationItem key="navigationItem" id="q4l-nJ-MsM">
                         <barButtonItem key="leftBarButtonItem" title="&lt;案件詳細" id="7kC-01-0fO">
                             <connections>
-                                <action selector="buttonAlert:" destination="k3d-oW-xgn" id="yHE-u1-Anj"/>
+                                <action selector="buttonAlert:" destination="k3d-oW-xgn" id="p7H-ZT-1Kb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
