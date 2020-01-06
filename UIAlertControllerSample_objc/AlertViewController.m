@@ -28,6 +28,7 @@
                                                                                   style:UIAlertActionStyleDefault
                                                                                 handler:^(UIAlertAction *action) {
                                                                                     NSLog(@"clicked Button title: %@", action.title);
+        [self.navigationController popViewControllerAnimated:YES];
                                                                                 }];
                                           
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"入力を続ける"
